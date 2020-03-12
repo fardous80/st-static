@@ -80,7 +80,5 @@ module.exports = shipit => {
             `pm2 start ${ecosystemFilePath} --env production --watch true`
         );
     });
-
-
   
   };
