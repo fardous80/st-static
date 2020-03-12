@@ -3,7 +3,7 @@
             apps: [
                 {
                 name: 'st-static',
-                script: '/home/fardous/tmp/st-static/releases/20200312140924/server.js',
+                script: '/home/fardous/tmp/st-static/releases/20200312173710/server.js',
                 watch: true,
                 autorestart: true,
                 restart_delay: 1000,
