@@ -65,9 +65,10 @@ module.exports = shipit => {
         fs.writeFileSync('ecosystem.config.js', ecosystem, function(err) {
             if (err) throw err;
             console.log('File created successfully.');
-          });
+        });
       
-          await shipit.copyToRemote('ecosystem.config.js', ecosystemFilePath);
+        await shipit.copyToRemote('ecosystem.config.js', ecosystemFilePath);
+        await shipit.copyToRemote('.env', `${shipit.releasePath}/.env`);
     });
 
     shipit.blTask('npm-install', async () => {
