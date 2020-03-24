@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9lmw4e');
+  src:  url('fonts/icomoon.eot?9lmw4e#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9lmw4e') format('truetype'),
+    url('fonts/icomoon.woff?9lmw4e') format('woff'),
+    url('fonts/icomoon.svg?9lmw4e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search1:before {
+  content: "\e91d";
+}
+.icon-shopping_basket:before {
+  content: "\e91c";
+}
+.icon-responsive:before {
+  content: "\e000";
+}
+.icon-gift:before {
+  content: "\e017";
+}
+.icon-basket2:before {
+  content: "\e027";
+}
+.icon-pricetags:before {
+  content: "\e02f";
+}
+.icon-arrow-left:before {
+  content: "\e900";
+}
+.icon-bell-fill:before {
+  content: "\e91f";
+}
+.icon-bell:before {
+  content: "\e920";
+}
+.icon-check-box:before {
+  content: "\e901";
+}
+.icon-check-circle:before {
+  content: "\e902";
+}
+.icon-check:before {
+  content: "\e903";
+}
+.icon-chevron-down:before {
+  content: "\e904";
+}
+.icon-chevron-left:before {
+  content: "\e905";
+}
+.icon-chevron-right:before {
+  content: "\e906";
+}
+.icon-chevron-up:before {
+  content: "\e907";
+}
+.icon-clock:before {
+  content: "\e91e";
+}
+.icon-filter:before {
+  content: "\e908";
+}
+.icon-heart-fill:before {
+  content: "\e909";
+}
+.icon-heart:before {
+  content: "\e90a";
+}
+.icon-house-fill:before {
+  content: "\e90b";
+}
+.icon-house:before {
+  content: "\e90c";
+}
+.icon-list:before {
+  content: "\e90d";
+}
+.icon-lock-fill:before {
+  content: "\e90e";
+}
+.icon-lock:before {
+  content: "\e90f";
+}
+.icon-search:before {
+  content: "\e910";
+}
+.icon-star-fill:before {
+  content: "\e921";
+}
+.icon-star:before {
+  content: "\e922";
+}
+.icon-tag-fill:before {
+  content: "\e911";
+}
+.icon-tag:before {
+  content: "\e912";
+}
+.icon-unlock-fill:before {
+  content: "\e913";
+}
+.icon-unlock:before {
+  content: "\e914";
+}
+.icon-x-circle-fill:before {
+  content: "\e915";
+}
+.icon-x-square-fill:before {
+  content: "\e916";
+}
+.icon-x-square:before {
+  content: "\e917";
+}
+.icon-x:before {
+  content: "\e918";
+}
+.icon-reddit:before {
+  content: "\e919";
+}
+.icon-thumbs-up:before {
+  content: "\e91a";
+}
+.icon-thumbs-o-up:before {
+  content: "\e91b";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+
+
+  .icon-large {
+      font-size: 2rem;
+  }
+
+  .icon-medium {
+    font-size: 1.5rem;
+}
+
+/* source-sans-pro-regular - latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+         url('fonts/source-sans-pro-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/source-sans-pro-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* source-sans-pro-700 - latin */
+  @font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+         url('fonts/source-sans-pro-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/source-sans-pro-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  html,body{
+      position: relative;
+  }

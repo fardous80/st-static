@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{232:function(e){e.exports=JSON.parse('{"home":{"title":"Clearance Sale Bargains","subtitle":"UK\'s Biggest","subtitle2":"Save as much as 95% on top designer brands","image":"https://cdn.saletag.co.uk/post/rsz_hero-home.jpg","button1":{"url":"/women","text":"Shop Women"},"button2":{"url":"/men","text":"Shop men"}}}')}}]);
